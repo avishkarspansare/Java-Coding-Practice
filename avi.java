@@ -6,5 +6,7 @@ public class Avi {
         // String rev = new StringBuilder(s).reverse().toString();
         // System.out.println((s.equals(rev)) ? "palindrome" : "not palindrome");
 
+        
+
     }
 }
