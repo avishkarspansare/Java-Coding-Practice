@@ -11,12 +11,12 @@ public class Avi {
         //     }
         //     System.out.println((sum == temp) ? (temp + " is an Amstrong Number") : (temp + " is not an Amstrong Number"));
 
-        int n = 1011;
-        int temp = n, rev = 0;
-        while (n != 0) {
-            rev = rev * 10 + n % 10;
-            n /= 10;
-        }
-        System.out.println((temp == rev) ? "palindrome" : "Not Palindrome");
+        // int n = 1011;
+        // int temp = n, rev = 0;
+        // while (n != 0) {
+        //     rev = rev * 10 + n % 10;
+        //     n /= 10;
+        // }
+        // System.out.println((temp == rev) ? "palindrome" : "Not Palindrome");
     }
 }
