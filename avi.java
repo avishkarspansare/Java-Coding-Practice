@@ -18,12 +18,13 @@ public class Avi {
         //     n /= 10;
         // }
         // System.out.println((temp == rev) ? "palindrome" : "Not Palindrome");
-
         // String s = "Avi";
         // String rev = new StringBuilder(s).reverse().toString();
         // System.out.println((s.equals(rev) ? "Palindrome" : "Not a Palindrome"));
-
         String s = "AvA";
-        
+        String rev = "";
+        for (int i = s.length() - 1; i >= 0; i--) {
+            
+        }
     }
 }
