@@ -13,7 +13,7 @@ public class Avi {
             rev = rev * 10 + n % 10;
             n /= 10;
         }
-        System.out.println((temp == rev) ? "Palindrome number" : "Not a Plindrome Number");
+        System.out.println((temp == rev) ? "Palindrome number" : "Not a Palindrome Number");
         System.out.println(rev);
 
     }
