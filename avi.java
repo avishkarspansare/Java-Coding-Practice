@@ -1,18 +1,18 @@
 
 public class Avi {
+    private String name;
 
-    private int n;
-
-    public void setn(int n) {
-        this.n = n;
+    public void setname(String name) {
+        this.name = name;
     }
 
-    public int getn() {
-        return this.n;
+    public String getname() {
+        return this.name;
     }
-
     public static void main(String[] args) {
+        Avi a = new Avi();
+        a.setname("Avishkar");
+        System.out.println(a.getname());
 
-        
     }
 }
