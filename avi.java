@@ -18,5 +18,9 @@ public class Avi {
         //     n /= 10;
         // }
         // System.out.println((temp == rev) ? "palindrome" : "Not Palindrome");
+
+        // String s = "Avi";
+        // String rev = new StringBuilder(s).reverse().toString();
+        // System.out.println((s.equals(rev) ? "Palindrome" : "Not a Palindrome"));
     }
 }
