@@ -18,14 +18,29 @@ public class Avi {
         //     n /= 10;
         // }
         // System.out.println((temp == rev) ? "palindrome" : "Not Palindrome");
+        //
         // String s = "Avi";
         // String rev = new StringBuilder(s).reverse().toString();
         // System.out.println((s.equals(rev) ? "Palindrome" : "Not a Palindrome"));
-        String s = "AvA";
-        String rev = "";
-        for (int i = s.length() - 1; i >= 0; i--) {
-            rev += s.charAt(i);
+        //
+        // String s = "AvA";
+        // String rev = "";
+        // for (int i = s.length() - 1; i >= 0; i--) {
+        //     rev += s.charAt(i);
+        // }
+        // System.out.println((s.equals(rev)) ? "palindrome" : "Not a Palindrome");
+        //
+        int n = 6;
+        boolean isPrime = true;
+        if (n <= 1) {
+            isPrime = false;
+        } else {
+            for (int i = 2; i <= Math.sqrt(n); i++) {
+                if (n % i == 0) {
+                    isPrime = false;
+                }
+            }
         }
-        System.out.println((s.equals(rev)) ? "palindrome" : "Not a Palindrome");
+        System.out.println((isPrime) ? "Prime" : "Not Prime");
     }
 }
