@@ -5,9 +5,9 @@ public class Avi {
         int  n = 101;
         int temp = n, rev= 0;
 
-        for(int i = 0; i<n; i++) {
-            n = n/10 + n%10;
-            temp = n/10;
+        while(n != 0) {
+            rev= rev*10+n%10;
+            n /= 10;
         }
         System.out.println(n);
     }

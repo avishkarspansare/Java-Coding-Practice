@@ -18,7 +18,7 @@ public class palindrome {
         // sc.close();
         // --------------------------
         // // Number Check
-        Integer n = sc.nextInt();
+        Integer n = sc.nextInt();   
 
         int temp = n, rev = 0;
 
