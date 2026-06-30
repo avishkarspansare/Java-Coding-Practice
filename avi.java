@@ -1,4 +1,5 @@
 
+import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -57,7 +58,7 @@ public class Avi {
         //
         Solution s = new Solution();
         int[] arr = s.twoSum(new int[]{1,2,3,4,5},8);
-        System.out.println(arr);
+        System.out.println(Arrays.toString((arr)));
     }
 }
 
