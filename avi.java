@@ -11,7 +11,7 @@ public class Avi {
                 isPrime = false;
             }
         }
-        System.out.println((isPrime == true) ? "Prime Number" : "Not a Prime Number");
+        System.out.println((isPrime) ? "Prime Number" : "Not a Prime Number");
 
     }
 }
