@@ -43,14 +43,13 @@ public class Avi {
         // }
         // System.out.println((isPrime) ? "Prime" : "Not Prime");
         //
-        int a = 153;
-
-        int temp = a, sum = 0;
-        while (a > 0) {
-            int digit = a % 10;
-            sum = sum + (digit * digit * digit);
-            a /= 10;
-        }
-        System.out.println((sum == temp) ? "amstrong" : "not an amstrong");
+        // int a = 153;
+        // int temp = a, sum = 0;
+        // while (a > 0) {
+        //     int digit = a % 10;
+        //     sum = sum + (digit * digit * digit);
+        //     a /= 10;
+        // }
+        // System.out.println((sum == temp) ? "Amstrong" : "Not Amstrong");
     }
 }
