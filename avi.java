@@ -9,11 +9,12 @@ public class Avi {
         int n = 121;
         int temp = n, rev = 0;
 
-        while (temp != 0) {
+        while (n != 0) {
             rev = rev * 10 + n % 10;
             n /= 10;
         }
         System.out.println((temp == rev) ? "Palindrome number" : "Not a Plindrome Number");
+        System.out.println(rev);
 
     }
 }
