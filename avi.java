@@ -2,19 +2,11 @@
 public class Avi {
 
     public static void main(String[] args) {
-        int n = 60;
-        boolean isPrime = true;
-        if (n <= 1) {
-            isPrime = false;
-        } else {
-            for (int i = 2; i <= Math.sqrt(n); i++) {
-                if (n % i == 0) {
-                    isPrime = false;
-                    break;
-                }
-            }
+        String s = "Avi";
+        String rev = "";
+        for (int i = s.length() - 1; i >= 0; i--) {
+            rev += s.charAt(i);
         }
-        System.out.println((isPrime) ? "Prime Number" : "Not a Prime Number");
-
+        System.out.println(rev);
     }
 }
