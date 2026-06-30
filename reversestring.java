@@ -5,6 +5,7 @@ public class reversestring {
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
+        System.out.print("Enter a string: ");
         String s = sc.next();
         String rev = "";
         //method 1 - O(n^2)
@@ -13,9 +14,9 @@ public class reversestring {
         }
         System.out.println(rev);
 
-        //method2 - O(n)
-        String rev2 = new StringBuilder(s).reverse().toString();
-        System.out.println(rev2);
+        // //method2 - O(n)
+        // String rev2 = new StringBuilder(s).reverse().toString();
+        // System.out.println(rev2);
 
     }
 
