@@ -9,6 +9,6 @@ public class Avi {
             n = n/10 + n%10;
             temp = n/10;
         }
-        System.out.println(temp);
+        System.out.println(n);
     }
 }
