@@ -51,5 +51,7 @@ public class Avi {
         //     a /= 10;
         // }
         // System.out.println((sum == temp) ? "Amstrong" : "Not Amstrong");
+        //
+        
     }
 }
