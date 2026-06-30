@@ -19,6 +19,7 @@ class Puppy extends Dog {
 
     @Override
     public void makeSound() {
+
         System.out.println("vuff vuff");
     }
 }
