@@ -13,10 +13,10 @@ public class amstrong {
 
         while (n > 0) {
             int digit = n % 10;
-            sum = sum+(digit * digit * digit);
-            n/=10;
+            sum = sum + (digit * digit * digit);
+            n /= 10;
 
         }
-        System.out.println((sum == temp)?(temp + " is an Amstrong number."): (temp + " is not an Amstrong Number."));
+        System.out.println((sum == temp) ? (temp + " is an Amstrong number.") : (temp + " is not an Amstrong Number."));
     }
 }
