@@ -44,8 +44,11 @@ public class Avi {
         // System.out.println((isPrime) ? "Prime" : "Not Prime");
         //
         int a = 153;
-        while(a!=0) {
-            
+        int sum = 0;
+        while(a>0) {
+            int digit = a%10;
+            sum = sum + (digit*digit*digit);
         }
+        System.out.println((sum == a)? "amstrong": "not an amstrong");
     }
 }
