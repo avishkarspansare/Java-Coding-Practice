@@ -22,5 +22,8 @@ public class Avi {
         // String s = "Avi";
         // String rev = new StringBuilder(s).reverse().toString();
         // System.out.println((s.equals(rev) ? "Palindrome" : "Not a Palindrome"));
+
+        String s = "AvA";
+        
     }
 }
