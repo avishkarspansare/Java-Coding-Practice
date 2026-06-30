@@ -57,7 +57,7 @@ public class Avi {
         // System.out.println((sum == temp) ? "Amstrong" : "Not Amstrong");
         //
         Solution s = new Solution();
-        int[] arr = s.twoSum(new int[]{1,2,3,4,5},5);
+        int[] arr = s.twoSum(new int[]{1, 2, 3, 4, 5}, 5);
         System.out.println(Arrays.toString((arr)));
     }
 }
