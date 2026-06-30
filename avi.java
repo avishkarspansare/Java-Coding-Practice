@@ -42,7 +42,10 @@ public class Avi {
         //     }
         // }
         // System.out.println((isPrime) ? "Prime" : "Not Prime");
-
-        
+        //
+        int a = 153;
+        while(a!=0) {
+            
+        }
     }
 }
