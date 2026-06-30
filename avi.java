@@ -1,3 +1,4 @@
+import java.util.Scanner;
 
 public class Avi {
     private String name;
@@ -10,9 +11,12 @@ public class Avi {
         return this.name;
     }
     public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        String s = sc.next();
         Avi a = new Avi();
-        a.setname("Avishkar");
+        a.setname(s);
         System.out.println(a.getname());
+        sc.close();
 
     }
 }
