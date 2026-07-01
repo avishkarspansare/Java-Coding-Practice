@@ -1,13 +1,14 @@
 
-import java.util.Scanner;
 
 public class Fibonacci {
 
     public static void main(String[] args) {
 
-        Scanner sc = new Scanner(System.in);
+        // Scanner sc = new Scanner(System.in);
 
-        int n = sc.nextInt();
+        // int n = sc.nextInt();
+
+        int n = 8;
 
         int a = 0, b = 1;
 
@@ -19,6 +20,6 @@ public class Fibonacci {
             b = c;
         }
 
-        sc.close();
+        // sc.close();
     }
 }
