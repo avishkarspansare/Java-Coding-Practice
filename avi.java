@@ -56,9 +56,10 @@ public class Avi {
         // int[] arr = s.twoSum(new int[]{1,2,3,4,5}, 8);
         // System.out.println(Arrays.toString(arr));
         //
-        String a = "Hello";
-        String b = new String("Hello");
-        System.out.println((a.equals(b)) ? "equal" : "not equal");
+        // String a = "Hello";
+        // String b = new String("Hello");
+        // System.out.println((a.equals(b)) ? "equal" : "not equal");
+        //
     }
 }
 
