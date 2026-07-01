@@ -1,5 +1,4 @@
 
-import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -57,8 +56,8 @@ public class Avi {
         // System.out.println((sum == temp) ? "Amstrong" : "Not Amstrong");
         //
         Solution s = new Solution();
-        int[] arr = s.twoSum(new int[]{1, 2, 3, 4, 5}, 5);
-        System.out.println(Arrays.toString((arr)));
+        s.twoSum(new int[]{1,2,3,4,5}, 8);
+        System.out.println();
     }
 }
 
@@ -68,7 +67,7 @@ class Solution {
         Map<Integer, Integer> map = new HashMap<>();
         for (int i = 0; i < nums.length; i++) {
             int compliment = target - nums[i];
-            if (map.containsKey(compliment)) {
+            if(map.containsKey(compliment)) {
                 return new int[]{map.get(compliment), i};
             }
             map.put(nums[i], i);
