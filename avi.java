@@ -78,8 +78,10 @@ public class Avi {
                     arr[j+1] = temp;
                 }
             }
+            
         }
-        sysout
+        System.out.println(arr[arr.length-2]);
+        
     }
 }
 
