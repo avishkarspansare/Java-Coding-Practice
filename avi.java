@@ -1,5 +1,4 @@
 
-
 public class Avi {
 
     public static void main(String[] args) {
@@ -56,11 +55,13 @@ public class Avi {
         // Solution s = new Solution();
         // int[] arr = s.twoSum(new int[]{1,2,3,4,5}, 8);
         // System.out.println(Arrays.toString(arr));
+        //
+        int a = 10, b = 10;
+        System.out.println((a == b) ? "equal" : "not equal");
     }
 }
 
 // class Solution {
-
 //     public int[] twoSum(int[] nums, int target) {
 //         Map<Integer, Integer> map = new HashMap<>();
 //         for (int i = 0; i < nums.length; i++) {
@@ -73,3 +74,9 @@ public class Avi {
 //         return new int[]{};
 //     }
 // }
+// SELECT DISTINCT salary FROM employee ORDER BY salary DESC LIMIT 1 OFFSET 1;
+// SELECT DISTINCT Salary FROM Employee ORDER BY Salary DESC LIMIT 1 OFFSET 1;
+// SELECT e.emp_id, e.name, d.dept_name FROM Employee e INNER JOIN Department d ON e.dept_id = d.dept_id;
+// SELECT e.eid, e.name, d.dept_name FROM Employee e INNER JOIN Department d ON e.dept_id = d.dept_id;
+// SELECT e.eid, e.name, d.dept_name FROM Employee e INNER JOIN Department d ON e.dept_id = d.dept_id;
+
