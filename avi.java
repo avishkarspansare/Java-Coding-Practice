@@ -1,4 +1,5 @@
 
+import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -56,8 +57,8 @@ public class Avi {
         // System.out.println((sum == temp) ? "Amstrong" : "Not Amstrong");
         //
         Solution s = new Solution();
-        s.twoSum(new int[]{1,2,3,4,5}, 8);
-        System.out.println();
+        int[] arr = s.twoSum(new int[]{1,2,3,4,5}, 8);
+        System.out.println(Arrays.toString(arr));
     }
 }
 
