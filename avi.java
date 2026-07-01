@@ -60,6 +60,11 @@ public class Avi {
         // String b = new String("Hello");
         // System.out.println((a.equals(b)) ? "equal" : "not equal");
         //
+        int n = 8;
+        int a = 0, b = 1;
+        for (int i = 1; i < n; i++) {
+
+        }
     }
 }
 
